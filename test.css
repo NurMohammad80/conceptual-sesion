@@ -5,3 +5,28 @@
 .details{
     cursor: pointer;
 }
+
+.box{
+    background-color: red;
+    padding: 10px;
+    width: 120px;
+    height: 100px;
+    
+}
+
+.box2{
+    background-color: green;
+}
+
+.box3{
+    background-color: blue;
+}
+
+.container{
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+    height: 500px;
+}
